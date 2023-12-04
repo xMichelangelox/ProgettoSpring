@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<bindings xmlns="http://java.sun.com/xml/ns/jaxb" if-exists="true" version="2.1">
+      
+    <!--
+
+Questo file è stato generato dall'architettura JavaTM per XML Binding (JAXB) Reference Implementation, v2.3.0 
+Vedere <a href="https://javaee.github.io/jaxb-v2/">https://javaee.github.io/jaxb-v2/</a> 
+Qualsiasi modifica a questo file andrà persa durante la ricompilazione dello schema di origine. 
+Generato il: 2023.12.01 alle 02:51:10 PM CET 
+
+  -->
+      
+    <bindings xmlns:tns="http://tempuri.org/" if-exists="true" scd="x-schema::tns">
+            
+        <schemaBindings map="false">
+                  
+            <package name="com.soap.client.gen"/>
+                
+        </schemaBindings>
+            
+        <bindings if-exists="true" scd="tns:Add">
+                  
+            <class ref="com.soap.client.gen.Add"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:AddResponse">
+                  
+            <class ref="com.soap.client.gen.AddResponse"/>
+                
+        </bindings>
+          
+    </bindings>
+    
+</bindings>
