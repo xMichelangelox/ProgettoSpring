@@ -11,7 +11,7 @@ public class CalculatorConfig {
 
     @Value("${WSDL.ClientEndpoint}")
     private String clientEndpoint;
-
+ 
     @Bean
     public Jaxb2Marshaller marshaller() {
         Jaxb2Marshaller marshaller = new Jaxb2Marshaller();

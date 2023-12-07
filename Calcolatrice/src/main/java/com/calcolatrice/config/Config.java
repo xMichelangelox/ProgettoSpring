@@ -14,7 +14,7 @@ import org.springframework.ws.wsdl.wsdl11.Wsdl11Definition;
 @EnableWs
 public class Config {
 
-
+ 
     @Bean
     public ServletRegistrationBean messageDispatcherServlet(ApplicationContext applicationContext)
     {

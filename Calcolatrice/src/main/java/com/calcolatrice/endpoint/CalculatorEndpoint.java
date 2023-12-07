@@ -14,7 +14,7 @@ public class CalculatorEndpoint {
     private static final String NAMESPACE_URI="http://tempuri.org/";
 
     private CalculatorClient client;
-
+ 
     @Autowired
     public CalculatorEndpoint(CalculatorClient client) {
         this.client = client;

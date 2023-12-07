@@ -9,7 +9,7 @@ import com.soap.client.gen.Multiply;
 import com.soap.client.gen.MultiplyResponse;
 
 public class CalculatorClient extends WebServiceGatewaySupport {
-
+ 
     public AddResponse addResponse(Add addResult){
         AddResponse response = (AddResponse) getWebServiceTemplate().marshalSendAndReceive("http://www.dneonline.com/calculator.asmx",addResult,
                 new SoapActionCallback("http://tempuri.org/Add"));
