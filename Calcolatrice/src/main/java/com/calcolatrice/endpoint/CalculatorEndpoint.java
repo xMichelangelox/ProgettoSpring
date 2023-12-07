@@ -28,4 +28,11 @@ public class CalculatorEndpoint {
         return responseType;
     }
 
+    @PayloadRoot(namespace = NAMESPACE_URI, localPart = "Multiply")
+    @ResponsePayload
+    public MultiplyResponse response (@RequestPayload Multiply requestType){
+        MultiplyResponse responseType = new MultiplyResponse();
+        responseType=client.multiplyResponse(requestType);
+        return responseType;
+    }
 }

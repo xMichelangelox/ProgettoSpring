@@ -2,7 +2,7 @@
 // Questo file è stato generato dall'architettura JavaTM per XML Binding (JAXB) Reference Implementation, v2.3.0 
 // Vedere <a href="https://javaee.github.io/jaxb-v2/">https://javaee.github.io/jaxb-v2/</a> 
 // Qualsiasi modifica a questo file andrà persa durante la ricompilazione dello schema di origine. 
-// Generato il: 2023.12.01 alle 02:51:10 PM CET 
+// Generato il: 2023.12.07 alle 09:46:10 AM CET 
 //
 
 
@@ -50,6 +50,22 @@ public class ObjectFactory {
      */
     public AddResponse createAddResponse() {
         return new AddResponse();
+    }
+
+    /**
+     * Create an instance of {@link Multiply }
+     * 
+     */
+    public Multiply createMultiply() {
+        return new Multiply();
+    }
+
+    /**
+     * Create an instance of {@link MultiplyResponse }
+     * 
+     */
+    public MultiplyResponse createMultiplyResponse() {
+        return new MultiplyResponse();
     }
 
 }
