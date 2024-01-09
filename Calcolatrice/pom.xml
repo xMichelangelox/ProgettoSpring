@@ -11,6 +11,7 @@
     <groupId>com.soap</groupId>
     <artifactId>calculator</artifactId>
     <version>0.0.1-SNAPSHOT</version>
+    <packaging>war</packaging>
     <name>soapCalculator</name>
     <description>soapCalculator</description>
     <properties>
@@ -78,6 +79,10 @@
                         <include>calculator.wsdl</include>
                     </schemaIncludes>
                 </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
         </plugins>
     </build>
